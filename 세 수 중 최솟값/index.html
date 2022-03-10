@@ -9,9 +9,14 @@
 <body>
     <script>
         function solution(a, b, c) {
+            // 변수 선언
             let answer;
+
+            // a, b를 우선 비교
             if(a < b) answer = a;
             else answer = b;
+            
+            // answer 변수에 선언된 값과 c를 비교
             if(c < answer) answer = c;
 
             return answer;
