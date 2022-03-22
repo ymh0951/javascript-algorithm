@@ -14,7 +14,7 @@
     </tr>
     <tr>
         <td>0</td>
-        <td style="background-color: gray;">5</td>
+        <td style="background: gray;">5</td>
         <td>3</td>
         <td>7</td>
         <td>2</td>
