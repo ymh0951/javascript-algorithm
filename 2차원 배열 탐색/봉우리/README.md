@@ -14,11 +14,64 @@
     </tr>
     <tr>
         <td>0</td>
-        <td style="background: gray;">5</td>
+        <td style="background-color: gray;">5</td>
         <td>3</td>
-        <td>7</td>
+        <td style="background-color: gray;">7</td>
         <td>2</td>
+        <td style="background-color: gray;">3</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>0</td>
         <td>3</td>
+        <td style="background-color: gray;">7</td>
+        <td>1</td>
+        <td style="background-color: gray;">6</td>
+        <td>1</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td style="background-color: gray;">7</td>
+        <td>2</td>
+        <td>5</td>
+        <td>3</td>
+        <td style="background-color: gray;">4</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>4</td>
+        <td>3</td>
+        <td style="background-color: gray;">6</td>
+        <td>4</td>
+        <td>1</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>8</td>
+        <td>7</td>
+        <td>3</td>
+        <td style="background-color: gray;">5</td>
+        <td>2</td>
         <td>0</td>
     </tr>
 </table>
+■ 입력설명<br>
+첫 줄에 자연수 N이 주어진다. (N<=N<=50)<br>
+두 번째 줄부터 N줄에 걸쳐 각 줄에 N개의 자연수가 주어진다. 각 자연수는 100을 넘지 않는다.<br>
+<br>
+■ 출력설명<br>
+봉우리의 개수를 출력하세요.<br>
+<br>
+■ 입력예제 1<br>
+5<br>
+5 3 7 2 3<br>
+3 7 1 6 1<br>
+7 2 5 3 4<br>
+4 3 6 4 1<br>
+8 7 3 5 2<br>
+<br>
+■ 출력예제 1<br>
+10
