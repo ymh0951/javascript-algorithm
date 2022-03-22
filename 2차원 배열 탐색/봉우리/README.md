@@ -14,13 +14,18 @@
     </tr>
     <tr>
         <td>0</td>
+<<<<<<< HEAD
         <td style="background-color: gray;">5</td>
+=======
+        <td style="background-: gray;">5</td>
+>>>>>>> a9e70e28f78b2a4533f9132514342cf920c27268
         <td>3</td>
         <td style="background-color: gray;">7</td>
         <td>2</td>
         <td style="background-color: gray;">3</td>
         <td>0</td>
     </tr>
+<<<<<<< HEAD
     <tr>
         <td>0</td>
         <td>3</td>
