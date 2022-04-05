@@ -12,27 +12,31 @@
             let answer = 0;
             let graph = Array.from(Array(n + 1), () => Array());
             let ch = Array.from({length:n + 1}, () => 0);
+            let = path = [];
 
-            /* for(let [a, b] of arr) {
-                graph[a][b] = 1;
-            }
+            for(let [a, b] of arr) {
+                graph[a].push(b);
+            } 
+            
             function DFS(v) {
                 if(v === n) {
                     answer++;
                     console.log(path);
                 } else {
-                    for(let i = 1; i <= n; i++) {
-                        if(graph[v][i] === 1 && ch[i] === 0) {
-                            ch[i] = 1;
-                            DFS(i);
-                            ch[i] = 0;
+                    for(let i = 0; i <= graph[v].length; i++) {
+                        if(ch[graph[v][i]] === 0) {
+                            ch[graph[v][i]] = 1;
+                            path.push(graph[v][i]);
+                            DFS(graph[v][i]);
+                            ch[graph[v][i]] = 0;
+                            path.pop();
                         }
                     }
                 }
             }
         
             ch[1] = 1;
-            DFS(1); */
+            DFS(1);
             return answer;
         }
 
