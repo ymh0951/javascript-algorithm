@@ -18,7 +18,7 @@
                 board[x][y] = 0;
                 for(let k = 0; k < 8; k++) {
                     let nx = x + dx[k];
-                    let ny = x + dy[k];
+                    let ny = y + dy[k];
                     if(nx >= 0 && nx < n && ny >= 0 && ny < n && board[nx][ny] === 1) {
                         DFS(nx, ny);
                     }
